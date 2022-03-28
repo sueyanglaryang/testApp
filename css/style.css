@@ -1,0 +1,25 @@
+body{
+    background-color: #e4e4e448;
+}
+
+/* class */
+.header{
+    border: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(219, 44, 88);
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+   /*padding: 10px;*/
+    margin: 20px ;
+
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    color: rgb(0, 255, 64);
+    background-color: black;
+}
